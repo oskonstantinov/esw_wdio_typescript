@@ -65,9 +65,15 @@ The project is structured as follows:
 ```
 
 features/: Contains the feature file and step definitions.
+
 features/pageobjects/: Contains the implementation of the Page Object Model.
+
 features/pageobjects/pageelements: Contains the implementation of the Page Object Model for elements, which describe the reusable components like Navigation Bar.
+
 features/step-definitions/: Contains the implementation of the step definitions.
+
 reports/: Directory for storing test reports.
+
 package.json: and package-lock.json: Project dependencies and scripts.
+
 wdio.conf.js: Configuration file for WebdriverIO.
