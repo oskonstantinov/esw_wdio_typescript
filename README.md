@@ -44,7 +44,7 @@ npm run allure-report
 
 ## Project Structure
 The project is structured as follows:
-
+```sh
 ├── features
 │   ├── pageobjects
 │   │   └── pageelements
@@ -62,6 +62,7 @@ The project is structured as follows:
 ├── README.md
 ├── tsconfig.json
 └── wdio.conf.ts
+```
 
 features/: Contains the feature file and step definitions.
 features/pageobjects/: Contains the implementation of the Page Object Model.
