@@ -11,6 +11,7 @@ Before you can run the project, ensure that you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Java 8 or above](https://openjdk.org/) for the Allure Report
 
 ## Setup
 
