@@ -136,7 +136,10 @@ export const config: Options.Testrunner = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [['allure', {
       outputDir: 'reports/allure-results', 
-      useCucumberStepReporter: true, 
+      /**
+       * commented because issue with execution on other laptop, root problem is https://github.com/webdriverio/webdriverio/issues/12142
+       */
+      //useCucumberStepReporter: true,               
       disableWebdriverScreenshotsReporting: false
     }]],
 
