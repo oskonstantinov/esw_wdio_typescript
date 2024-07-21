@@ -21,6 +21,7 @@ export default class AbstractPage {
   /**
   * Wait for element be visible before set value to avoid flaky behaviour
   * @param {WebdriverIO.Element} element WebElement to be filled
+  * @param {string} text Custom text to fill the input
   */
   public async waitAndFillText(element: WebdriverIO.Element, text: string) {
     await element.waitForDisplayed()
@@ -30,6 +31,7 @@ export default class AbstractPage {
   /**
   * Wait for element be visible before select option from the dropdown to avoid flaky behaviour
   * @param {WebdriverIO.Element} element Dropdown element (select type) to be selected
+  * @param {string} text Мisible text of the desired option in the dropdown list
   */
   public async waitAndSelectFromDropdownByText(element: WebdriverIO.Element, text: string) {
     await element.waitForDisplayed()
