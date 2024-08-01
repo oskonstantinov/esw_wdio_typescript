@@ -3,7 +3,6 @@
 ## Overview
 
 This project is a technical home assignment that demonstrates the use of WebdriverIO + TypeScript with the Cucumber framework for end-to-end testing. The Allure Report is used for generating detailed test reports.
-I sincerely hope that you will appreciate the architectural solution. I'm highly interested in the position and would like to move forward to the next stage of the recruiting process with your company.
 
 ## Prerequisites
 
